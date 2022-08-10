@@ -1,5 +1,5 @@
 from secrets import choice
-#https://www.youtube.com/watch?v=qJIy6o6uEE8&t=151s
+
 class Employee: 
     employeeList = list()
     def __init__(self, empNo, empName, empDep, empSal):
