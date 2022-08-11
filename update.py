@@ -1,7 +1,9 @@
 import os.path
 
 class Employee: 
+    
     employeeList = list()
+    
     def __init__(self, empNo, empName, empDep, empSal):
         self.empNo, self.empName, self.empDep, self.empSal = empNo, empName, empDep, empSal   
      
@@ -25,11 +27,9 @@ class Employee:
         return False
     
     def removeEmpByID(self, empNo):
-        for emp in Employee.employeeList: 
-            if(emp.empNo == empNo):
-                Employee.employeeList.remove
-              
-    
+        Employee.employeeList = [emp for emp in self.employeeList if emp.empNo != empNo]
+        return True
+       
     def setEmpNo(self, empNo):
         self.empNo = empNo
     def getEmpNo(self):
