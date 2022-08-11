@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # from secrets import choice
-=======
-from secrets import choice
->>>>>>> 1c31f22cbea733d1878d770e8ddab58788ed71cb
 
 class Employee: 
     employeeList = list()
