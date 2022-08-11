@@ -109,7 +109,3 @@ while choice >= 1 and choice <= 5:
     #call that file with json file
 
     
-<<<<<<< HEAD
-=======
-    
->>>>>>> 1c31f22cbea733d1878d770e8ddab58788ed71cb
