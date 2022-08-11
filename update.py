@@ -89,6 +89,11 @@ while choice >= 1 and choice <= 5:
         f.writelines("====================")
         f.writelines("\n")
         
+<<<<<<< HEAD
+=======
+        
+    
+>>>>>>> main
     elif(choice == 2 ):
         print("\n")
         for emp in employee.getEmpList():
@@ -129,9 +134,12 @@ while choice >= 1 and choice <= 5:
     elif(choice == 5):
         empID = int(input("enter an employee Id to remove:"))
         employee.removeEmpByID(empID)
+<<<<<<< HEAD
         
         
         # if has file == 
         
 
             
+=======
+>>>>>>> main
